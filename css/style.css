@@ -240,10 +240,11 @@ h3 {
   transition: all 0.2s;
 }
 .btn-filter:hover {
-  background-color: #e6b800;
+  color: white;
+  background-color: green;
 }
 .btn-filter:active {
-  scale: 0.95;
+  scale: 0.96;
 }
 @media (max-width: 23.44em) {
   .btn-filter {
@@ -412,7 +413,6 @@ footer {
 }
 .mail:active {
   transform: scale(0.98) translateY(2px);
-  background-color: #ffcc00;
 }
 @media (max-width: 20em) {
   .mail {
@@ -426,4 +426,9 @@ footer {
 
 .hidden {
   display: none;
+}
+
+.active {
+  color: white;
+  background-color: green;
 }/*# sourceMappingURL=style.css.map */

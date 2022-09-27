@@ -281,11 +281,12 @@ h3 {
   transition: all 0.2s;
 
   &:hover {
-    background-color: darken($color: #ffcc00, $amount: 5%);
+    color: white;
+    background-color: green;
   }
 
   &:active {
-    scale: 0.95;
+    scale: 0.96;
   }
 
   @include phone-m {
@@ -466,7 +467,6 @@ footer {
 
   &:active {
     transform: scale(0.98) translateY(2px);
-    background-color: $yellow;
   }
 
   @include phone-s {
@@ -480,4 +480,9 @@ footer {
 
 .hidden {
   display: none;
+}
+
+.active {
+  color: white;
+  background-color: green;
 }
