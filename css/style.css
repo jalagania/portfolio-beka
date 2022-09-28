@@ -154,19 +154,7 @@ h3 {
 
 .skillset {
   padding: 4rem 0;
-  background-image: radial-gradient(circle 363px at 49.1% 0.8%, rgb(54, 96, 172) 0%, rgb(46, 53, 89) 100.2%);
-  color: #f7f7f7;
-}
-
-.skillset-text {
-  font-size: 1.4rem;
-  text-align: center;
-  margin-bottom: 3rem;
-}
-@media (max-width: 48em) {
-  .skillset-text {
-    font-size: 1.6rem;
-  }
+  background-color: #e6e6e6;
 }
 
 .skillset-box {
@@ -180,37 +168,11 @@ h3 {
   }
 }
 
-.skill-logo_box {
-  width: 16rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media (max-width: 48em) {
-  .skill-logo_box {
-    width: 15rem;
-  }
-}
-
-.skill-assessment {
-  margin-bottom: 2rem;
-  transition: all 0.3s;
-}
-
-.invisible {
-  transform: translateY(15px);
-  opacity: 0;
-  pointer-events: none;
-}
-
-.logo-skill {
+i {
+  font-size: 5rem;
+  color: #16a085;
   cursor: pointer;
-}
-@media (max-width: 48em) {
-  .logo-skill {
-    width: 70%;
-  }
+  transition: all 0.3s;
 }
 
 .projects {
@@ -241,7 +203,7 @@ h3 {
 }
 .btn-filter:hover {
   color: white;
-  background-color: green;
+  background-color: #16a085;
 }
 .btn-filter:active {
   scale: 0.96;
@@ -394,7 +356,7 @@ footer {
   padding: 4rem;
   color: #f7f7f7;
   text-align: center;
-  background-image: linear-gradient(110.3deg, rgb(73, 93, 109) 4.3%, rgb(49, 55, 82) 96.7%);
+  background-color: #34495e;
 }
 
 .mail {
@@ -430,5 +392,5 @@ footer {
 
 .active {
   color: white;
-  background-color: green;
+  background-color: #16a085;
 }/*# sourceMappingURL=style.css.map */

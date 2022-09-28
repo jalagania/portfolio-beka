@@ -1,6 +1,6 @@
 "use strict";
 
-const skillLogo = document.querySelectorAll(".logo-skill");
+const skillLogo = document.querySelectorAll("i");
 const cardBox = document.querySelector(".card-box");
 const btnAll = document.querySelector(".btn-all");
 const btnJS = document.querySelector(".btn-js");
@@ -67,11 +67,11 @@ toolsArray.forEach((tools) => {
 
 skillLogo.forEach((logo) => {
   logo.addEventListener("mouseover", function () {
-    logo.previousElementSibling.classList.remove("invisible");
+    logo.classList.add("colored");
   });
 
   logo.addEventListener("mouseleave", function () {
-    logo.previousElementSibling.classList.add("invisible");
+    logo.classList.remove("colored");
   });
 });
 
