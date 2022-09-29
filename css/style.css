@@ -203,7 +203,7 @@ i {
 }
 .btn-filter:hover {
   color: white;
-  background-color: #16a085;
+  background-color: darkslategray;
 }
 .btn-filter:active {
   scale: 0.96;
@@ -392,5 +392,5 @@ footer {
 
 .active {
   color: white;
-  background-color: #16a085;
+  background-color: darkslategray;
 }/*# sourceMappingURL=style.css.map */
