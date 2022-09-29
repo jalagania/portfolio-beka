@@ -154,7 +154,10 @@ h3 {
 
 .skillset {
   padding: 4rem 0;
-  background-color: #e6e6e6;
+  background-color: darkslategray;
+}
+.skillset h3 {
+  color: whitesmoke;
 }
 
 .skillset-box {

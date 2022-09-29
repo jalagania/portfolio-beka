@@ -191,12 +191,11 @@ h3 {
 
 .skillset {
   padding: 4rem 0;
-  // background-image: radial-gradient(
-  //   circle 363px at 49.1% 0.8%,
-  //   rgba(54, 96, 172, 1) 0%,
-  //   rgba(46, 53, 89, 1) 100.2%
-  // );
-  background-color: #e6e6e6;
+  background-color: darkslategray;
+
+  h3 {
+    color: whitesmoke;
+  }
 }
 
 .skillset-box {
