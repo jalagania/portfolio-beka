@@ -155,7 +155,7 @@ h1 {
     font-size: 7rem;
   }
 
-  @include phone-m() {
+  @include phone-s() {
     font-size: 6rem;
   }
 }
@@ -209,11 +209,35 @@ h3 {
 .middle-box {
   display: flex;
   gap: 14rem;
+
+  @include phone-l() {
+    gap: 8rem;
+  }
+
+  @include phone-m() {
+    gap: 6rem;
+  }
+
+  @include phone-s() {
+    gap: 4rem;
+  }
 }
 
 .bottom-box {
   display: flex;
   gap: 16rem;
+
+  @include phone-l() {
+    gap: 8rem;
+  }
+
+  @include phone-m() {
+    gap: 6.5rem;
+  }
+
+  @include phone-s() {
+    gap: 4rem;
+  }
 }
 
 i {
@@ -221,6 +245,10 @@ i {
   color: #16a085;
   cursor: pointer;
   transition: all 0.3s;
+
+  @include phone-l() {
+    font-size: 6rem;
+  }
 }
 
 // Projects Section

@@ -116,7 +116,7 @@ h1 {
     font-size: 7rem;
   }
 }
-@media (max-width: 23.44em) {
+@media (max-width: 20em) {
   h1 {
     font-size: 6rem;
   }
@@ -172,10 +172,40 @@ h3 {
   display: flex;
   gap: 14rem;
 }
+@media (max-width: 26.57em) {
+  .middle-box {
+    gap: 8rem;
+  }
+}
+@media (max-width: 23.44em) {
+  .middle-box {
+    gap: 6rem;
+  }
+}
+@media (max-width: 20em) {
+  .middle-box {
+    gap: 4rem;
+  }
+}
 
 .bottom-box {
   display: flex;
   gap: 16rem;
+}
+@media (max-width: 26.57em) {
+  .bottom-box {
+    gap: 8rem;
+  }
+}
+@media (max-width: 23.44em) {
+  .bottom-box {
+    gap: 6.5rem;
+  }
+}
+@media (max-width: 20em) {
+  .bottom-box {
+    gap: 4rem;
+  }
 }
 
 i {
@@ -183,6 +213,11 @@ i {
   color: #16a085;
   cursor: pointer;
   transition: all 0.3s;
+}
+@media (max-width: 26.57em) {
+  i {
+    font-size: 6rem;
+  }
 }
 
 .projects {
