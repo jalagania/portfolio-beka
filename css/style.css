@@ -94,11 +94,13 @@ nav {
 
 h1 {
   font-size: 10rem;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   color: white;
   margin-bottom: 8rem;
+  text-shadow: 7px 5px salmon;
+  filter: blur(0.5px);
 }
 @media (max-width: 64em) {
   h1 {
