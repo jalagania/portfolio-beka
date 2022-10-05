@@ -157,11 +157,11 @@ h1 {
 
   @include phone-m() {
     font-size: 7rem;
+    text-shadow: 0.5rem 0.5rem salmon;
   }
 
   @include phone-s() {
     font-size: 6rem;
-    text-shadow: 0.1rem 0.5rem salmon;
   }
 }
 
