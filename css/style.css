@@ -100,7 +100,7 @@ h1 {
   color: white;
   margin-bottom: 8rem;
   text-shadow: 0.7rem 0.5rem salmon;
-  filter: blur(0.5px);
+  filter: blur(0.4px);
 }
 @media (max-width: 64em) {
   h1 {
@@ -111,6 +111,8 @@ h1 {
   h1 {
     font-size: 7.5rem;
     margin-bottom: 10rem;
+    text-shadow: 0.6rem 0.5rem salmon;
+    filter: blur(0);
   }
 }
 @media (max-width: 23.44em) {
@@ -121,6 +123,7 @@ h1 {
 @media (max-width: 20em) {
   h1 {
     font-size: 6rem;
+    text-shadow: 0.4rem 0.5rem salmon;
   }
 }
 
