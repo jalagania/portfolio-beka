@@ -123,7 +123,7 @@ h1 {
 @media (max-width: 20em) {
   h1 {
     font-size: 6rem;
-    text-shadow: 0.4rem 0.5rem salmon;
+    text-shadow: 0.1rem 0.5rem salmon;
   }
 }
 
