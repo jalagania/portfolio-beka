@@ -4,6 +4,22 @@ const projects = [
   {
     id: 1,
     class: "card js",
+    cover: "./images/ttt-preview.jpg",
+    title: "Tic Tac Toe",
+    tools: {
+      html: "HTML",
+      css: "SCSS",
+      js: "JS",
+      react: "",
+      api: "",
+      json: "",
+    },
+    netlify: "https://tic-tac-toe-beka.netlify.app",
+    github: "https://github.com/jalagania/tic-tac-toe",
+  },
+  {
+    id: 2,
+    class: "card js",
     cover: "./images/rps-preview.jpg",
     title: "Rock Paper Scissors",
     tools: {
@@ -18,7 +34,7 @@ const projects = [
     github: "https://github.com/jalagania/rock-paper-scissors",
   },
   {
-    id: 2,
+    id: 3,
     class: "card js",
     cover: "./images/countries-preview.jpg",
     title: "REST Countries API",
@@ -34,7 +50,7 @@ const projects = [
     github: "https://github.com/jalagania/rest-countries-api",
   },
   {
-    id: 3,
+    id: 4,
     class: "card js",
     cover: "./images/comments-preview.jpg",
     title: "Interactive Comments",
@@ -50,7 +66,7 @@ const projects = [
     github: "https://github.com/jalagania/interactive-comments",
   },
   {
-    id: 4,
+    id: 5,
     class: "card js",
     cover: "./images/ecommerce-preview.jpg",
     title: "Ecommerce Product Page",
@@ -66,7 +82,7 @@ const projects = [
     github: "https://github.com/jalagania/ecommerce-product-page",
   },
   {
-    id: 5,
+    id: 6,
     class: "card js",
     cover: "./images/joblist-preview.jpg",
     title: "Job List Filter",
@@ -82,7 +98,7 @@ const projects = [
     github: "https://github.com/jalagania/job-list-filter",
   },
   {
-    id: 6,
+    id: 7,
     class: "card js",
     cover: "./images/calculator-preview.jpg",
     title: "PEMDAS Calculator",
@@ -98,7 +114,7 @@ const projects = [
     github: "https://github.com/jalagania/pemdas-calculator",
   },
   {
-    id: 7,
+    id: 8,
     class: "card js",
     cover: "./images/todo-preview.jpg",
     title: "Todo List",
@@ -114,7 +130,7 @@ const projects = [
     github: "https://github.com/jalagania/todo-list",
   },
   {
-    id: 8,
+    id: 9,
     class: "card js",
     cover: "./images/shortly-preview.jpg",
     title: "URL Shortener",
@@ -130,7 +146,7 @@ const projects = [
     github: "https://github.com/jalagania/url-shortener",
   },
   {
-    id: 9,
+    id: 10,
     class: "card js",
     cover: "./images/ip-preview.jpg",
     title: "IP Address Tracker",
@@ -146,7 +162,7 @@ const projects = [
     github: "https://github.com/jalagania/ip-address-tracker",
   },
   {
-    id: 10,
+    id: 11,
     class: "card js",
     cover: "./images/room-preview.jpg",
     title: "Room Homepage",
@@ -162,7 +178,7 @@ const projects = [
     github: "https://github.com/jalagania/room-homepage",
   },
   {
-    id: 11,
+    id: 12,
     class: "card js",
     cover: "./images/timer-preview.jpg",
     title: "Countdown Timer",
@@ -178,7 +194,7 @@ const projects = [
     github: "https://github.com/jalagania/countdown-timer",
   },
   {
-    id: 12,
+    id: 13,
     class: "card react",
     cover: "./images/tip-preview.jpg",
     title: "Tip Calculator",
@@ -194,7 +210,7 @@ const projects = [
     github: "https://github.com/jalagania/tip-calculator",
   },
   {
-    id: 13,
+    id: 14,
     class: "card react",
     cover: "./images/advice-preview.jpg",
     title: "Advice Generator",
@@ -208,21 +224,5 @@ const projects = [
     },
     netlify: "https://advice-generator-beka.netlify.app",
     github: "https://github.com/jalagania/advice-generator",
-  },
-  {
-    id: 14,
-    class: "card js",
-    cover: "./images/dashboard-preview.jpg",
-    title: "Social Media Dashboard",
-    tools: {
-      html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
-      api: "",
-      json: "",
-    },
-    netlify: "https://sm-dashboard-beka.netlify.app",
-    github: "https://github.com/jalagania/sm-dashboard",
   },
 ];
