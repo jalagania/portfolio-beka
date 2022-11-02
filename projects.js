@@ -21,7 +21,7 @@ const projects = [
     id: 2,
     class: "card js",
     cover: "./images/rps-preview.jpg",
-    title: "Rock Paper Scissors (Extended)",
+    title: "Rock Paper Scissors",
     tools: {
       html: "HTML",
       css: "SCSS",
