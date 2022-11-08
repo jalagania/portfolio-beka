@@ -196,6 +196,22 @@ const projects = [
   {
     id: 13,
     class: "card react",
+    cover: "./images/card-preview.jpg",
+    title: "Interactive Card",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "",
+    },
+    netlify: "https://interactive-schmard-beka.netlify.app",
+    github: "https://github.com/jalagania/interactive-card",
+  },
+  {
+    id: 14,
+    class: "card react",
     cover: "./images/tip-preview.jpg",
     title: "Tip Calculator",
     tools: {
@@ -210,7 +226,7 @@ const projects = [
     github: "https://github.com/jalagania/tip-calculator",
   },
   {
-    id: 14,
+    id: 15,
     class: "card react",
     cover: "./images/advice-preview.jpg",
     title: "Advice Generator",
