@@ -180,8 +180,8 @@ const projects = [
   {
     id: 12,
     class: "card react",
-    cover: "./images/timer-preview.jpg",
-    title: "Countdown Timer",
+    cover: "./images/tip-preview.jpg",
+    title: "Tip Calculator",
     tools: {
       html: "HTML",
       css: "CSS",
@@ -190,8 +190,8 @@ const projects = [
       api: "",
       json: "",
     },
-    netlify: "https://countdown-timer-beka.netlify.app",
-    github: "https://github.com/jalagania/countdown-timer",
+    netlify: "https://tip-calculator-beka.netlify.app",
+    github: "https://github.com/jalagania/tip-calculator",
   },
   {
     id: 13,
@@ -212,8 +212,8 @@ const projects = [
   {
     id: 14,
     class: "card react",
-    cover: "./images/tip-preview.jpg",
-    title: "Tip Calculator",
+    cover: "./images/timer-preview.jpg",
+    title: "Countdown Timer",
     tools: {
       html: "HTML",
       css: "CSS",
@@ -222,8 +222,8 @@ const projects = [
       api: "",
       json: "",
     },
-    netlify: "https://tip-calculator-beka.netlify.app",
-    github: "https://github.com/jalagania/tip-calculator",
+    netlify: "https://countdown-timer-beka.netlify.app",
+    github: "https://github.com/jalagania/countdown-timer",
   },
   {
     id: 15,
