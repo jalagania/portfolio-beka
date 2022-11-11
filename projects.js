@@ -179,14 +179,14 @@ const projects = [
   },
   {
     id: 12,
-    class: "card js",
+    class: "card react",
     cover: "./images/timer-preview.jpg",
     title: "Countdown Timer",
     tools: {
       html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
+      css: "CSS",
+      js: "",
+      react: "REACT",
       api: "",
       json: "",
     },
