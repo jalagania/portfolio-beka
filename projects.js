@@ -147,14 +147,14 @@ const projects = [
   },
   {
     id: 10,
-    class: "card js",
+    class: "card react",
     cover: "./images/ip-preview.jpg",
     title: "IP Address Tracker",
     tools: {
       html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
+      css: "CSS",
+      js: "",
+      react: "REACT",
       api: "API",
       json: "",
     },
