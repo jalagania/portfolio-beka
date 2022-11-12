@@ -131,14 +131,14 @@ const projects = [
   },
   {
     id: 9,
-    class: "card js",
+    class: "card react",
     cover: "./images/shortly-preview.jpg",
     title: "URL Shortener",
     tools: {
       html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
+      css: "CSS",
+      js: "",
+      react: "REACT",
       api: "API",
       json: "",
     },
