@@ -115,7 +115,7 @@ const projects = [
   },
   {
     id: 8,
-    class: "card js",
+    class: "card react",
     cover: "./images/todo-preview.jpg",
     title: "Todo List",
     tools: {
