@@ -84,22 +84,6 @@ const projects = [
   {
     id: 6,
     class: "card js",
-    cover: "./images/joblist-preview.jpg",
-    title: "Job List Filter",
-    tools: {
-      html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
-      api: "",
-      json: "JSON",
-    },
-    netlify: "https://job-list-filter-beka.netlify.app",
-    github: "https://github.com/jalagania/job-list-filter",
-  },
-  {
-    id: 7,
-    class: "card js",
     cover: "./images/calculator-preview.jpg",
     title: "PEMDAS Calculator",
     tools: {
@@ -112,6 +96,22 @@ const projects = [
     },
     netlify: "https://pemdas-calculator-beka.netlify.app",
     github: "https://github.com/jalagania/pemdas-calculator",
+  },
+  {
+    id: 7,
+    class: "card react",
+    cover: "./images/joblist-preview.jpg",
+    title: "Job List Filter",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "JSON",
+    },
+    netlify: "https://job-list-filter-beka.netlify.app",
+    github: "https://github.com/jalagania/job-list-filter",
   },
   {
     id: 8,
