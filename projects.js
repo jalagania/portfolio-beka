@@ -67,14 +67,14 @@ const projects = [
   },
   {
     id: 5,
-    class: "card js",
+    class: "card react",
     cover: "./images/ecommerce-preview.jpg",
     title: "Ecommerce Product Page",
     tools: {
       html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
+      css: "CSS",
+      js: "",
+      react: "REACT",
       api: "",
       json: "",
     },
