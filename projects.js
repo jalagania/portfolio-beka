@@ -72,7 +72,7 @@ const projects = [
     title: "PEMDAS Calculator",
     tools: {
       html: "HTML",
-      css: "SCSS",
+      css: "CSS",
       js: "",
       react: "REACT",
       api: "",
