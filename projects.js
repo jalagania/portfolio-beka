@@ -68,6 +68,22 @@ const projects = [
   {
     id: 5,
     class: "card react",
+    cover: "./images/calculator-preview.jpg",
+    title: "PEMDAS Calculator",
+    tools: {
+      html: "HTML",
+      css: "SCSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "",
+    },
+    netlify: "https://pemdas-calculator-beka.netlify.app",
+    github: "https://github.com/jalagania/pemdas-calculator",
+  },
+  {
+    id: 6,
+    class: "card react",
     cover: "./images/ecommerce-preview.jpg",
     title: "Ecommerce Product Page",
     tools: {
@@ -80,22 +96,6 @@ const projects = [
     },
     netlify: "https://ecommerce-product-page-beka.netlify.app",
     github: "https://github.com/jalagania/ecommerce-product-page",
-  },
-  {
-    id: 6,
-    class: "card js",
-    cover: "./images/calculator-preview.jpg",
-    title: "PEMDAS Calculator",
-    tools: {
-      html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
-      api: "",
-      json: "",
-    },
-    netlify: "https://pemdas-calculator-beka.netlify.app",
-    github: "https://github.com/jalagania/pemdas-calculator",
   },
   {
     id: 7,
