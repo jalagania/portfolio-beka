@@ -35,14 +35,14 @@ const projects = [
   },
   {
     id: 3,
-    class: "card js",
+    class: "card react",
     cover: "./images/rps-preview.jpg",
     title: "Rock Paper Scissors +",
     tools: {
       html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
+      css: "CSS",
+      js: "",
+      react: "REACT",
       api: "",
       json: "",
     },
