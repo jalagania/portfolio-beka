@@ -51,14 +51,14 @@ const projects = [
   },
   {
     id: 4,
-    class: "card js",
+    class: "card react",
     cover: "./images/comments-preview.jpg",
     title: "Interactive Comments",
     tools: {
       html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
+      css: "CSS",
+      js: "",
+      react: "REACT",
       api: "",
       json: "JSON",
     },
