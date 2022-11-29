@@ -36,22 +36,6 @@ const projects = [
   {
     id: 3,
     class: "card react",
-    cover: "./images/rps-preview.jpg",
-    title: "Rock Paper Scissors +",
-    tools: {
-      html: "HTML",
-      css: "CSS",
-      js: "",
-      react: "REACT",
-      api: "",
-      json: "",
-    },
-    netlify: "https://rock-paper-scissors-beka.netlify.app",
-    github: "https://github.com/jalagania/rock-paper-scissors",
-  },
-  {
-    id: 4,
-    class: "card react",
     cover: "./images/comments-preview.jpg",
     title: "Interactive Comments",
     tools: {
@@ -64,6 +48,22 @@ const projects = [
     },
     netlify: "https://interactive-comments-beka.netlify.app",
     github: "https://github.com/jalagania/interactive-comments",
+  },
+  {
+    id: 4,
+    class: "card react",
+    cover: "./images/rps-preview.jpg",
+    title: "Rock Paper Scissors +",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "",
+    },
+    netlify: "https://rock-paper-scissors-beka.netlify.app",
+    github: "https://github.com/jalagania/rock-paper-scissors",
   },
   {
     id: 5,

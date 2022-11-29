@@ -481,3 +481,16 @@ footer {
   color: white;
   background-color: darkslategray;
 }
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #0057b7;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #ffd700;
+}
