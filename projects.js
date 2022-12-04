@@ -132,6 +132,22 @@ const projects = [
   {
     id: 9,
     class: "card react",
+    cover: "./images/crowdfund-preview.jpg",
+    title: "Crowdfunding Page",
+    tools: {
+      html: "HTML",
+      css: "TAILWIND",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "",
+    },
+    netlify: "https://crowdfunding-page-beka.netlify.app",
+    github: "https://github.com/jalagania/crowdfunding-page",
+  },
+  {
+    id: 10,
+    class: "card react",
     cover: "./images/shortly-preview.jpg",
     title: "URL Shortener",
     tools: {
@@ -146,7 +162,7 @@ const projects = [
     github: "https://github.com/jalagania/url-shortener",
   },
   {
-    id: 10,
+    id: 11,
     class: "card react",
     cover: "./images/ip-preview.jpg",
     title: "IP Address Tracker",
@@ -161,22 +177,6 @@ const projects = [
     netlify: "https://ip-address-tracker-beka.netlify.app",
     github: "https://github.com/jalagania/ip-address-tracker",
   },
-  // {
-  //   id: 11,
-  //   class: "card js",
-  //   cover: "./images/room-preview.jpg",
-  //   title: "Room Homepage",
-  //   tools: {
-  //     html: "HTML",
-  //     css: "SCSS",
-  //     js: "JS",
-  //     react: "",
-  //     api: "",
-  //     json: "",
-  //   },
-  //   netlify: "https://room-homepage-beka.netlify.app",
-  //   github: "https://github.com/jalagania/room-homepage",
-  // },
   {
     id: 12,
     class: "card react",
