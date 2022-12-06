@@ -68,6 +68,22 @@ const projects = [
   {
     id: 5,
     class: "card react",
+    cover: "./images/multistep-preview.jpg",
+    title: "Multi-step Form",
+    tools: {
+      html: "HTML",
+      css: "TAILWIND",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "",
+    },
+    netlify: "https://multistep-form-beka.netlify.app",
+    github: "https://github.com/jalagania/multistep-form",
+  },
+  {
+    id: 6,
+    class: "card react",
     cover: "./images/calculator-preview.jpg",
     title: "PEMDAS Calculator",
     tools: {
@@ -82,7 +98,7 @@ const projects = [
     github: "https://github.com/jalagania/pemdas-calculator",
   },
   {
-    id: 6,
+    id: 7,
     class: "card react",
     cover: "./images/ecommerce-preview.jpg",
     title: "Ecommerce Product Page",
@@ -98,7 +114,7 @@ const projects = [
     github: "https://github.com/jalagania/ecommerce-product-page",
   },
   {
-    id: 7,
+    id: 8,
     class: "card react",
     cover: "./images/joblist-preview.jpg",
     title: "Job List Filter",
@@ -114,7 +130,7 @@ const projects = [
     github: "https://github.com/jalagania/job-list-filter",
   },
   {
-    id: 8,
+    id: 9,
     class: "card react",
     cover: "./images/todo-preview.jpg",
     title: "Todo List",
@@ -130,7 +146,7 @@ const projects = [
     github: "https://github.com/jalagania/todo-list",
   },
   {
-    id: 9,
+    id: 10,
     class: "card react",
     cover: "./images/crowdfund-preview.jpg",
     title: "Crowdfunding Page",
@@ -146,7 +162,7 @@ const projects = [
     github: "https://github.com/jalagania/crowdfunding-page",
   },
   {
-    id: 10,
+    id: 11,
     class: "card react",
     cover: "./images/shortly-preview.jpg",
     title: "URL Shortener",
@@ -162,7 +178,7 @@ const projects = [
     github: "https://github.com/jalagania/url-shortener",
   },
   {
-    id: 11,
+    id: 12,
     class: "card react",
     cover: "./images/ip-preview.jpg",
     title: "IP Address Tracker",
@@ -178,7 +194,7 @@ const projects = [
     github: "https://github.com/jalagania/ip-address-tracker",
   },
   {
-    id: 12,
+    id: 13,
     class: "card react",
     cover: "./images/card-preview.jpg",
     title: "Interactive Card",
@@ -194,7 +210,7 @@ const projects = [
     github: "https://github.com/jalagania/interactive-card",
   },
   {
-    id: 13,
+    id: 14,
     class: "card react",
     cover: "./images/tip-preview.jpg",
     title: "Tip Calculator",
@@ -210,7 +226,7 @@ const projects = [
     github: "https://github.com/jalagania/tip-calculator",
   },
   {
-    id: 14,
+    id: 15,
     class: "card react",
     cover: "./images/timer-preview.jpg",
     title: "Countdown Timer",
@@ -226,7 +242,7 @@ const projects = [
     github: "https://github.com/jalagania/countdown-timer",
   },
   {
-    id: 15,
+    id: 16,
     class: "card react",
     cover: "./images/advice-preview.jpg",
     title: "Advice Generator",
