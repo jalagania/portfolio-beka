@@ -3,23 +3,7 @@
 const projects = [
   {
     id: 1,
-    class: "card js",
-    cover: "./images/ttt-preview.jpg",
-    title: "Tic Tac Toe",
-    tools: {
-      html: "HTML",
-      css: "SCSS",
-      js: "JS",
-      react: "",
-      api: "",
-      json: "",
-    },
-    netlify: "https://tic-tac-toe-beka.netlify.app",
-    github: "https://github.com/jalagania/tic-tac-toe",
-  },
-  {
-    id: 2,
-    class: "card react",
+    class: "card",
     cover: "./images/countries-preview.jpg",
     title: "REST Countries API",
     tools: {
@@ -34,8 +18,8 @@ const projects = [
     github: "https://github.com/jalagania/rest-countries-api",
   },
   {
-    id: 3,
-    class: "card react",
+    id: 2,
+    class: "card",
     cover: "./images/comments-preview.jpg",
     title: "Interactive Comments",
     tools: {
@@ -50,8 +34,24 @@ const projects = [
     github: "https://github.com/jalagania/interactive-comments",
   },
   {
+    id: 3,
+    class: "card",
+    cover: "./images/ttt-preview.jpg",
+    title: "Tic Tac Toe",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "",
+    },
+    netlify: "https://tic-tac-toe-beka.netlify.app",
+    github: "https://github.com/jalagania/tic-tac-toe",
+  },
+  {
     id: 4,
-    class: "card react",
+    class: "card",
     cover: "./images/rps-preview.jpg",
     title: "Rock Paper Scissors +",
     tools: {
@@ -67,7 +67,7 @@ const projects = [
   },
   {
     id: 5,
-    class: "card react",
+    class: "card",
     cover: "./images/multistep-preview.jpg",
     title: "Multi-step Form",
     tools: {
@@ -83,7 +83,7 @@ const projects = [
   },
   {
     id: 6,
-    class: "card react",
+    class: "card",
     cover: "./images/calculator-preview.jpg",
     title: "PEMDAS Calculator",
     tools: {
@@ -99,7 +99,7 @@ const projects = [
   },
   {
     id: 7,
-    class: "card react",
+    class: "card",
     cover: "./images/ecommerce-preview.jpg",
     title: "Ecommerce Product Page",
     tools: {
@@ -115,7 +115,7 @@ const projects = [
   },
   {
     id: 8,
-    class: "card react",
+    class: "card",
     cover: "./images/joblist-preview.jpg",
     title: "Job List Filter",
     tools: {
@@ -131,7 +131,7 @@ const projects = [
   },
   {
     id: 9,
-    class: "card react",
+    class: "card",
     cover: "./images/todo-preview.jpg",
     title: "Todo List",
     tools: {
@@ -147,7 +147,7 @@ const projects = [
   },
   {
     id: 10,
-    class: "card react",
+    class: "card",
     cover: "./images/crowdfund-preview.jpg",
     title: "Crowdfunding Page",
     tools: {
@@ -163,7 +163,7 @@ const projects = [
   },
   {
     id: 11,
-    class: "card react",
+    class: "card",
     cover: "./images/shortly-preview.jpg",
     title: "URL Shortener",
     tools: {
@@ -179,7 +179,7 @@ const projects = [
   },
   {
     id: 12,
-    class: "card react",
+    class: "card",
     cover: "./images/ip-preview.jpg",
     title: "IP Address Tracker",
     tools: {
@@ -195,7 +195,7 @@ const projects = [
   },
   {
     id: 13,
-    class: "card react",
+    class: "card",
     cover: "./images/card-preview.jpg",
     title: "Interactive Card",
     tools: {
@@ -211,7 +211,7 @@ const projects = [
   },
   {
     id: 14,
-    class: "card react",
+    class: "card",
     cover: "./images/tip-preview.jpg",
     title: "Tip Calculator",
     tools: {
@@ -227,7 +227,7 @@ const projects = [
   },
   {
     id: 15,
-    class: "card react",
+    class: "card",
     cover: "./images/timer-preview.jpg",
     title: "Countdown Timer",
     tools: {
@@ -243,7 +243,7 @@ const projects = [
   },
   {
     id: 16,
-    class: "card react",
+    class: "card",
     cover: "./images/advice-preview.jpg",
     title: "Advice Generator",
     tools: {

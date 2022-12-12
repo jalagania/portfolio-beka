@@ -5,7 +5,7 @@ const cardBox = document.querySelector(".card-box");
 const btnAll = document.querySelector(".btn-all");
 const btnJS = document.querySelector(".btn-js");
 const btnReact = document.querySelector(".btn-react");
-const buttons = document.querySelectorAll(".btn-filter");
+// const buttons = document.querySelectorAll(".btn-filter");
 
 for (let i = 0; i < projects.length; i++) {
   const html = `<div class="${projects[i].class}">
@@ -75,30 +75,30 @@ skillLogo.forEach((logo) => {
   });
 });
 
-btnAll.addEventListener("click", function (event) {
-  cards.forEach((card) => card.classList.remove("hidden"));
-  buttons.forEach((btn) => btn.classList.remove("active"));
-  event.target.classList.add("active");
-});
+// btnAll.addEventListener("click", function (event) {
+//   cards.forEach((card) => card.classList.remove("hidden"));
+//   buttons.forEach((btn) => btn.classList.remove("active"));
+//   event.target.classList.add("active");
+// });
 
-btnJS.addEventListener("click", function (event) {
-  for (let card of cards) {
-    card.classList.remove("hidden");
-    if (!card.classList.contains("js")) {
-      card.classList.add("hidden");
-    }
-  }
-  buttons.forEach((btn) => btn.classList.remove("active"));
-  event.target.classList.add("active");
-});
+// btnJS.addEventListener("click", function (event) {
+//   for (let card of cards) {
+//     card.classList.remove("hidden");
+//     if (!card.classList.contains("js")) {
+//       card.classList.add("hidden");
+//     }
+//   }
+//   buttons.forEach((btn) => btn.classList.remove("active"));
+//   event.target.classList.add("active");
+// });
 
-btnReact.addEventListener("click", function (event) {
-  for (let card of cards) {
-    card.classList.remove("hidden");
-    if (!card.classList.contains("react")) {
-      card.classList.add("hidden");
-    }
-  }
-  buttons.forEach((btn) => btn.classList.remove("active"));
-  event.target.classList.add("active");
-});
+// btnReact.addEventListener("click", function (event) {
+//   for (let card of cards) {
+//     card.classList.remove("hidden");
+//     if (!card.classList.contains("react")) {
+//       card.classList.add("hidden");
+//     }
+//   }
+//   buttons.forEach((btn) => btn.classList.remove("active"));
+//   event.target.classList.add("active");
+// });
