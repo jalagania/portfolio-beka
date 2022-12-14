@@ -2,6 +2,22 @@
 
 const projects = [
   {
+    id: 1214,
+    class: "card",
+    cover: "./images/entertainment-preview.jpg",
+    title: "Entertainment Web App",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "JSON",
+    },
+    netlify: "https://entertainment-app-beka.netlify.app",
+    github: "https://github.com/jalagania/entertainment-app",
+  },
+  {
     id: 1,
     class: "card",
     cover: "./images/countries-preview.jpg",
