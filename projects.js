@@ -34,6 +34,22 @@ const projects = [
     github: "https://github.com/jalagania/rest-countries-api",
   },
   {
+    id: 1216,
+    class: "card",
+    cover: "./images/devjobs-preview.jpg",
+    title: "Devjobs Web App",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "JSON",
+    },
+    netlify: "https://devjobs-app-beka.netlify.app",
+    github: "https://github.com/jalagania/devjobs-app",
+  },
+  {
     id: 2,
     class: "card",
     cover: "./images/comments-preview.jpg",
