@@ -5,6 +5,24 @@ $yellow: #ffcc00;
 
 // Media Query
 
+@mixin widescreen-m {
+  @media (min-width: 120em) {
+    @content;
+  }
+}
+
+@mixin widescreen-s {
+  @media (min-width: 90em) {
+    @content;
+  }
+}
+
+@mixin laptop-s {
+  @media (max-width: 80em) {
+    @content;
+  }
+}
+
 @mixin laptop {
   @media (max-width: 64em) {
     @content;
@@ -50,6 +68,14 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 
+  @include widescreen-s {
+    font-size: 70%;
+  }
+
+  @include widescreen-m {
+    font-size: 75%;
+  }
+
   @include laptop {
     font-size: 56%;
   }
@@ -66,6 +92,10 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
+
+  @include widescreen-m {
+    font-size: 1.8rem;
+  }
 }
 
 ul {
@@ -94,6 +124,10 @@ header {
       rgba(0, 140, 122, 1) 100.2%
     );
   text-align: center;
+
+  @include tablet {
+    height: auto;
+  }
 }
 
 nav {
@@ -106,7 +140,7 @@ nav {
   justify-content: center;
   gap: 5rem;
 
-  @include phone-m() {
+  @include phone-m {
     gap: 4rem;
   }
 }
@@ -144,23 +178,28 @@ h1 {
   text-shadow: 0.7rem 0.5rem salmon;
   filter: blur(0.4px);
 
-  @include laptop {
-    font-size: 9rem;
+  @include widescreen-s {
+    margin: 15vh 0;
   }
 
-  @include phone-l() {
+  @include laptop {
+    font-size: 9rem;
+    margin: 15vh 0;
+  }
+
+  @include phone-l {
     font-size: 7.5rem;
     margin-bottom: 10rem;
     text-shadow: 0.6rem 0.5rem salmon;
     filter: blur(0);
   }
 
-  @include phone-m() {
+  @include phone-m {
     font-size: 7rem;
     text-shadow: 0.5rem 0.5rem salmon;
   }
 
-  @include phone-s() {
+  @include phone-s {
     font-size: 6rem;
   }
 }
@@ -177,9 +216,10 @@ h2 {
 
   @include laptop {
     font-size: 6rem;
+    margin-bottom: 10rem;
   }
 
-  @include phone-l() {
+  @include phone-l {
     font-size: 5rem;
   }
 }
@@ -215,15 +255,15 @@ h3 {
   display: flex;
   gap: 14rem;
 
-  @include phone-l() {
+  @include phone-l {
     gap: 8rem;
   }
 
-  @include phone-m() {
+  @include phone-m {
     gap: 6rem;
   }
 
-  @include phone-s() {
+  @include phone-s {
     gap: 4rem;
   }
 }
@@ -303,7 +343,7 @@ i {
 
 .card-box {
   max-width: 124rem;
-  padding: 2rem;
+  padding: 0 2rem;
   margin: 0 auto;
 
   display: grid;
@@ -311,9 +351,15 @@ i {
   column-gap: 3rem;
   row-gap: 3rem;
 
+  @include widescreen-m {
+    max-width: 130rem;
+    gap: 5rem;
+  }
+
   @include laptop {
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
     grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
   }
 
   @include tablet {
@@ -367,6 +413,10 @@ i {
   text-align: center;
   border-bottom: 1px solid gray;
   padding-bottom: 1rem;
+
+  @include laptop-s {
+    font-size: 1.8rem;
+  }
 }
 
 .tools-used {
