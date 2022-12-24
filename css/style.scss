@@ -73,7 +73,7 @@ html {
   }
 
   @include widescreen-m {
-    font-size: 80%;
+    font-size: 75%;
   }
 
   @include laptop {
@@ -124,10 +124,6 @@ header {
       rgba(0, 140, 122, 1) 100.2%
     );
   text-align: center;
-
-  @include widescreen-m {
-    height: 50vh;
-  }
 
   @include tablet {
     height: auto;
@@ -184,10 +180,6 @@ h1 {
 
   @include widescreen-s {
     margin: 15vh 0;
-  }
-
-  @include widescreen-m {
-    margin: 10vh 0;
   }
 
   @include laptop {
@@ -248,10 +240,6 @@ h3 {
 
   h3 {
     color: whitesmoke;
-  }
-
-  @include widescreen-m {
-    height: 50vh;
   }
 }
 
@@ -364,9 +352,7 @@ i {
   row-gap: 3rem;
 
   @include widescreen-m {
-    max-width: 160rem;
-
-    grid-template-columns: repeat(4, 1fr);
+    max-width: 130rem;
     gap: 5rem;
   }
 
