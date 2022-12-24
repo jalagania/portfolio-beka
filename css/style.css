@@ -18,7 +18,7 @@ html {
 }
 @media (min-width: 120em) {
   html {
-    font-size: 75%;
+    font-size: 80%;
   }
 }
 @media (max-width: 64em) {
@@ -66,6 +66,11 @@ header {
   height: 100vh;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffcc00' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"), linear-gradient(109.6deg, rgb(0, 191, 165) 11.2%, rgb(0, 140, 122) 100.2%);
   text-align: center;
+}
+@media (min-width: 120em) {
+  header {
+    height: 50vh;
+  }
 }
 @media (max-width: 48em) {
   header {
@@ -125,6 +130,11 @@ h1 {
 @media (min-width: 90em) {
   h1 {
     margin: 15vh 0;
+  }
+}
+@media (min-width: 120em) {
+  h1 {
+    margin: 10vh 0;
   }
 }
 @media (max-width: 64em) {
@@ -190,6 +200,11 @@ h3 {
 }
 .skillset h3 {
   color: whitesmoke;
+}
+@media (min-width: 120em) {
+  .skillset {
+    height: 50vh;
+  }
 }
 
 .skillset-box {
@@ -307,7 +322,8 @@ i {
 }
 @media (min-width: 120em) {
   .card-box {
-    max-width: 130rem;
+    max-width: 160rem;
+    grid-template-columns: repeat(4, 1fr);
     gap: 5rem;
   }
 }
