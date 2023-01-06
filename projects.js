@@ -2,6 +2,22 @@
 
 const projects = [
   {
+    id: 0106,
+    class: "card",
+    cover: "./images/feedback-preview.jpg",
+    title: "Product Feedback App",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "JSON",
+    },
+    netlify: "https://product-feedback-beka.netlify.app",
+    github: "https://github.com/jalagania/product-feedback",
+  },
+  {
     id: 1214,
     class: "card",
     cover: "./images/entertainment-preview.jpg",
