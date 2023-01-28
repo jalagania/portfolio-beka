@@ -2,22 +2,6 @@
 
 const projects = [
   {
-    id: 2801,
-    class: "card",
-    cover: "./images/invoice-preview.jpg",
-    title: "Invoice App",
-    tools: {
-      html: "HTML",
-      css: "CSS",
-      js: "",
-      react: "REACT",
-      api: "",
-      json: "JSON",
-    },
-    netlify: "https://invoice-app-beka.netlify.app",
-    github: "https://github.com/jalagania/invoice-app",
-  },
-  {
     id: 601,
     class: "card",
     cover: "./images/feedback-preview.jpg",
@@ -32,6 +16,22 @@ const projects = [
     },
     netlify: "https://product-feedback-beka.netlify.app",
     github: "https://github.com/jalagania/product-feedback",
+  },
+  {
+    id: 2801,
+    class: "card",
+    cover: "./images/invoice-preview.jpg",
+    title: "Invoice App",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "JSON",
+    },
+    netlify: "https://invoice-app-beka.netlify.app",
+    github: "https://github.com/jalagania/invoice-app",
   },
   {
     id: 1214,
