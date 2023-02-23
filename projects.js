@@ -2,6 +2,22 @@
 
 const projects = [
   {
+    id: 232,
+    class: "card",
+    cover: "./images/kanban-preview.jpg",
+    title: "Kanban App",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "JSON",
+    },
+    netlify: "https://kanban-app-beka.netlify.app",
+    github: "https://github.com/jalagania/kanban-app",
+  },
+  {
     id: 601,
     class: "card",
     cover: "./images/feedback-preview.jpg",
