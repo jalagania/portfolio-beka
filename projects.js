@@ -50,6 +50,22 @@ const projects = [
     github: "https://github.com/jalagania/invoice-app",
   },
   {
+    id: 304,
+    class: "card",
+    cover: "./images/ecomm-preview.jpg",
+    title: "E-commerce Web App",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT",
+      api: "",
+      json: "JSON",
+    },
+    netlify: "https://audiophile-beka.netlify.app",
+    github: "https://github.com/jalagania/audiophile-ecommerce",
+  },
+  {
     id: 1214,
     class: "card",
     cover: "./images/entertainment-preview.jpg",
