@@ -226,6 +226,22 @@ const projects = [
     github: "https://github.com/jalagania/job-list-filter",
   },
   {
+    id: 415,
+    class: "card",
+    cover: "./images/password-preview.jpg",
+    title: "Password Generator",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT/TS",
+      api: "",
+      json: "",
+    },
+    netlify: "https://password-generator-beka.netlify.app",
+    github: "https://github.com/jalagania/password-generator",
+  },
+  {
     id: 9,
     class: "card",
     cover: "./images/todo-preview.jpg",
