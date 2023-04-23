@@ -146,6 +146,22 @@ const projects = [
     github: "https://github.com/jalagania/tic-tac-toe",
   },
   {
+    id: 423,
+    class: "card",
+    cover: "./images/memory-preview.jpg",
+    title: "Memory Game",
+    tools: {
+      html: "HTML",
+      css: "CSS",
+      js: "",
+      react: "REACT/TS",
+      api: "",
+      json: "",
+    },
+    netlify: "https://memory-game-beka.netlify.app",
+    github: "https://github.com/jalagania/memory-game",
+  },
+  {
     id: 4,
     class: "card",
     cover: "./images/rps-preview.jpg",
