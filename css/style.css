@@ -353,7 +353,7 @@ i {
 }
 
 .card-bottom {
-  padding: 2rem 3rem;
+  padding: 3rem;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23444444' fill-opacity='0.2' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"), radial-gradient(circle 827px at 47.3% 48%, whitesmoke 0%, cyan 90%);
   display: flex;
   flex-direction: column;
@@ -428,9 +428,43 @@ i {
 }
 
 .links-box {
-  margin-top: -2rem;
   display: flex;
   justify-content: space-between;
+}
+
+.links-box a {
+  width: 10rem;
+  display: block;
+  padding: 1rem 0;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: white;
+  background-color: darkslategray;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.links-box a:hover {
+  color: black;
+  background-color: #ffcc00;
+}
+.links-box a:active {
+  transform: scale(0.98) translateY(2px);
+}
+@media (max-width: 23.44em) {
+  .links-box a {
+    width: 12rem;
+  }
+}
+@media (max-width: 20em) {
+  .links-box a {
+    width: 11rem;
+  }
 }
 
 .link-logo {

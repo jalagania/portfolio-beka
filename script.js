@@ -35,18 +35,10 @@ for (let i = 0; i < projects.length; i++) {
     <a
       href="${projects[i].netlify}"
       target="_blank"
-      ><img
-        src="./images/netlify-logo.png"
-        alt="netlify logo"
-        class="link-logo" /></a
-    ><a
+      >Demo<a
       href="${projects[i].github}"
       target="_blank"
-      ><img
-        src="./images/github-logo.png"
-        alt="github logo"
-        class="link-logo"
-    /></a>
+      >Code</a>
   </div>
 </div>
 </div>`;
